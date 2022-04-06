@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500;600&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image:  url('Backgrounds/mainpage.svg');
+    background-size: cover;
+    display: flex;
+}
+
+.image-section
+{
+    display: flex;
+}
+.content-section
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pc-title
+{
+  font-size: 96px;
+  font-family: 'poppins';
+  font-weight: 700;
+  text-align: center;
+  padding: 0 50px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(Backgrounds/font-background.png); 
+}
+
+.pc-image
+{
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   height: 380px;
+  
+}
+
+.pc-price
+{
+    font-size:36px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    background-color: #414141;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 35px;
+    margin: 20px 0px;
+    margin-left: 30px;
+}
+
+.wedge
+{
+  height: 100vmin;
+  margin-left: -40px;
+}
+
+.button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  transition: background-color 0.2s ease-in;
+   
+}
+.button:hover
+{
+    background-color: #414141;
+}
+
+
+.button p
+{
+
+     text-align: center;
+    font-family: 'poppins';
+    font-size: 24px;
+    font-weight: 600;
+    color: #414141;
+    width: 340px;
+    letter-spacing: 1px;
+    transition: font-size 0.2s ease-in;
+    cursor:grab;
+  
+}
+.button p:hover
+{
+    font-size: 28px;
+    color: white;
+    
+}
+
+
+.button-border
+{
+ margin-top: 30px;
+ margin-left: 30px;
+  max-width: 350px;
+  border-radius:30px;
+  position: relative;
+  background: linear-gradient(to right, #00CC99, #6600FF);
+  box-shadow: 10px 10px 11px  rgba(0, 0, 0, 0.171);
+  padding: 3px;
+}
+
+/* spec section */
+
+.spec-title
+{
+    text-align: center;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.row
+{
+    display: flex;
+}
+
+.card
+{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 30px;
+    width: 321px;
+    height: fit-content;
+    font-family: 'poppins';
+    box-shadow: 10px 10px 11px  rgba(0, 0, 0, 0.171);
+}
+.card-header
+{
+    font-weight: 700;
+    font-size: 36px;
+}
+.bold
+{
+  font-weight: 700;
+}
