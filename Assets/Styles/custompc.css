@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500;600&family=Titillium+Web&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image:  url('Backgrounds/mainpage.svg');
+    background-size: cover;
+}
+
+.header{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px 20px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 11px  rgba(0, 0, 0, 0.171);
+}
+
+.header p{
+    font-family:'lobster';
+    font-size: 40px;
+}
+.partlist {
+    background-color: white;
+    display: inline-block;
+    margin: 40px 40px;
+    border-radius: 20px;
+    font-family: 'poppins';
+    color: #3D3D3D;
+    width: 40%;
+    padding: 10px;
+    box-shadow: 10px 10px 11px  rgba(0, 0, 0, 0.171)
+}
+.partlist .heading
+{
+  font-size: 50px;
+  text-align: center;
+}
+
+.partlist .seperator
+{
+    margin-top: 10px;
+    background-color: #C2C2C2;
+    width:auto;
+    height: 5px;
+}
+
+.partlist table
+{
+    width: 100%;
+    font-size: 22px;
+    font-weight: 400;
+}
+.partlist table  .l1
+{
+   font-size: 20px;
+   font-weight: 600;
+   
+}
+table { border-collapse: collapse;
+    border-collapse: collapse;
+    padding-top: 5px;
+ ;}
+
+ th {
+    padding: 15px;
+  }
+
+.comp{
+    color: #676767;
+}
+.l1:hover{
+    background-color: #00cc993a;
+    border-radius: 10px;
+
+}
+
+.cost
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 10px;
+}
+
+.button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 56px;
+  background-color: white;
+  border-radius: 30px;
+  transition: background-color 0.2s ease-in;
+   
+}
+.button:hover
+{
+    background-color: #414141;
+}
+
+
+.button p
+{
+
+     text-align: center;
+    font-family: 'poppins';
+    font-size: 24px;
+    font-weight: 600;
+    color: #414141;
+    width: 240px;
+    letter-spacing: 1px;
+    transition: font-size 0.2s ease-in;
+    cursor:grab;
+  
+}
+.button p:hover
+{
+    font-size: 28px;
+    color: white;
+    
+}
+
+
+.button-border
+{
+ margin-left: 30px;
+  max-width: 250px;
+  border-radius:30px;
+  position: relative;
+  background: linear-gradient(to right, #00CC99, #6600FF);
+  box-shadow: 10px 10px 11px  rgba(0, 0, 0, 0.171);
+  padding: 3px;
+}
